@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+
 
 namespace Pirate.Scripts {
     public class PlayerController : MonoBehaviour {
@@ -8,6 +10,7 @@ namespace Pirate.Scripts {
 
         private Rigidbody2D _rigidbody;
         private Controls _controls;
+
         private float _direction;
         private bool _isGround;
         private bool _isJumping;
@@ -26,7 +29,17 @@ namespace Pirate.Scripts {
         private void OnEnable() => _controls.Enable();
 
         private void OnDisable() => _controls.Disable();
-        
+
+        private void OnCollisionEnter2D(Collision2D other) {
+            _isGround = other.collider.GetComponent<Ground>();
+            Debug.Log("ground");
+        }
+
+        /*private void OnCollisionExit2D(Collision2D other) {
+            _isGround = other.collider.GetComponent<Ground>();
+        }*/
+
+
         private void Move() {
             _direction = _controls.Player.Move.ReadValue<float>();
             _rigidbody.velocity = new Vector2(_direction * speed, _rigidbody.velocity.y);
@@ -34,7 +47,7 @@ namespace Pirate.Scripts {
         
         
         private void Jump() {
-            //if (!_isGround) return;
+            if (!_isGround) return;
             _rigidbody.velocity = Vector2.up * jumpForce;
             _isGround = false;
             _isJumping = true; 

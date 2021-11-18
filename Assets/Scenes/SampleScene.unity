@@ -1852,8 +1852,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a02f511b289574bf19ab83061ce2af52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 5
+  speed: 3
+  jumpForce: 4
 --- !u!1 &636457927
 GameObject:
   m_ObjectHideFlags: 0
@@ -6276,6 +6276,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2819365353489310673, guid: f899456b3652c461e9ee69039ca35c01, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2819365353489310674, guid: f899456b3652c461e9ee69039ca35c01, type: 3}
       propertyPath: m_RootOrder
       value: 6
