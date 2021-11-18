@@ -13,7 +13,6 @@ namespace Pirate.Scripts {
 
         private float _direction;
         private bool _isGround;
-        private bool _isJumping;
 
         private void Awake() {
             _rigidbody = GetComponent<Rigidbody2D>();
@@ -32,12 +31,7 @@ namespace Pirate.Scripts {
 
         private void OnCollisionEnter2D(Collision2D other) {
             _isGround = other.collider.GetComponent<Ground>();
-            Debug.Log("ground");
         }
-
-        /*private void OnCollisionExit2D(Collision2D other) {
-            _isGround = other.collider.GetComponent<Ground>();
-        }*/
 
 
         private void Move() {
@@ -48,9 +42,8 @@ namespace Pirate.Scripts {
         
         private void Jump() {
             if (!_isGround) return;
-            _rigidbody.velocity = Vector2.up * jumpForce;
+            _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             _isGround = false;
-            _isJumping = true; 
         }
         
         
