@@ -12,7 +12,9 @@ namespace Pirate.Scripts {
         private void Awake() {
             _rigidbody = GetComponent<Rigidbody2D>();
             _controls = new Controls();
-        }
+
+            _controls.Player.Jump.performed += context => Jump();
+        } 
 
         private void FixedUpdate() {
             Move();
@@ -26,5 +28,10 @@ namespace Pirate.Scripts {
             _direction = _controls.Player.Move.ReadValue<float>();
             _rigidbody.velocity = new Vector2(_direction * speed, _rigidbody.velocity.y);
         }
+        
+        private void Jump() {
+            
+        }
+        
     }
 }
