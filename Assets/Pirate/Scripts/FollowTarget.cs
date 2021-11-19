@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowTarget : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+namespace Pirate.Scripts {
+    public class FollowTarget : MonoBehaviour {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [SerializeField] private Transform player;
+        [SerializeField] private float damping;
+
+
+        private void LateUpdate() {
+            Vector3 destination = new Vector3(player.position.x, player.position.y, transform.position.z);
+            transform.position = Vector3.Lerp(transform.position, destination, Time.deltaTime * damping);
+        }
     }
 }
