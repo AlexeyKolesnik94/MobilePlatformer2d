@@ -1,6 +1,4 @@
-using Pirate.Scripts.Components;
 using UnityEngine;
-
 
 namespace Pirate.Scripts {
     public class PlayerController : MonoBehaviour {
