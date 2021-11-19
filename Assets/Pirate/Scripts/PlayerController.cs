@@ -1,3 +1,4 @@
+using Pirate.Scripts.Components;
 using UnityEngine;
 
 
@@ -6,7 +7,7 @@ namespace Pirate.Scripts {
 
         [SerializeField] private float speed;
         [SerializeField] private float jumpForce;
-        [SerializeField] private CheckController checkController;
+        [SerializeField] private CheckControllerComponent checkController;
 
         private Rigidbody2D _rigidbody;
         private Controls _controls;
