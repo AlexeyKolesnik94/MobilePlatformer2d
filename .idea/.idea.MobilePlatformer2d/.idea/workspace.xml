@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="af79dc0d-4e3d-4e23-872a-050085fef5cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/CheckController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/CheckController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Components/CheckControllerComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Components/CheckControllerComponent.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resourses/textures/Props/Coins.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resourses/textures/Props/Coins.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/LayerCheck.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/EnterTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/ReloadLevelComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/Hero.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/LevelEnd.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637246809631</updated>
       <workItem from="1637246817578" duration="2846000" />
-      <workItem from="1637341297888" duration="3297000" />
+      <workItem from="1637341297888" duration="3990000" />
     </task>
     <servers />
   </component>

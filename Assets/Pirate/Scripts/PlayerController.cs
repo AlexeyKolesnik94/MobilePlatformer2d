@@ -7,7 +7,7 @@ namespace Pirate.Scripts {
 
         [SerializeField] private float speed;
         [SerializeField] private float jumpForce;
-        [SerializeField] private CheckControllerComponent checkController;
+        [SerializeField] private CheckCollider checkController;
 
         private Rigidbody2D _rigidbody;
         private Controls _controls;
