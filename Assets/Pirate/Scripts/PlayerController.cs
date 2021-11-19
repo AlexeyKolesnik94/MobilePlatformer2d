@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 
@@ -7,13 +6,14 @@ namespace Pirate.Scripts {
 
         [SerializeField] private float speed;
         [SerializeField] private float jumpForce;
+        [SerializeField] private CheckController checkController;
 
         private Rigidbody2D _rigidbody;
         private Controls _controls;
 
         private float _direction;
-        private bool _isGround;
-
+        
+        
         private void Awake() {
             _rigidbody = GetComponent<Rigidbody2D>();
             _controls = new Controls();
@@ -29,10 +29,6 @@ namespace Pirate.Scripts {
 
         private void OnDisable() => _controls.Disable();
 
-        private void OnCollisionEnter2D(Collision2D other) {
-            _isGround = other.collider.GetComponent<Ground>();
-        }
-
 
         private void Move() {
             _direction = _controls.Player.Move.ReadValue<float>();
@@ -41,11 +37,9 @@ namespace Pirate.Scripts {
         
         
         private void Jump() {
-            if (!_isGround) return;
+            if (!checkController.isGround) return;
             _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            _isGround = false;
+            checkController.isGround = false;
         }
-        
-        
     }
 }

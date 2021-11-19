@@ -1729,6 +1729,7 @@ GameObject:
   - component: {fileID: 615616989}
   - component: {fileID: 615616988}
   - component: {fileID: 615616990}
+  - component: {fileID: 615616991}
   m_Layer: 0
   m_Name: Hero_0
   m_TagString: Untagged
@@ -1852,6 +1853,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   jumpForce: 4
+  checkController: {fileID: 615616991}
+--- !u!114 &615616991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615616985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0773cbe3b4f604b3e8186c641ebdd405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGround: 0
 --- !u!1 &636457927
 GameObject:
   m_ObjectHideFlags: 0
