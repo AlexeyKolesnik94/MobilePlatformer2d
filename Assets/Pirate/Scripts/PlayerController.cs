@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Pirate.Scripts {
@@ -9,19 +10,38 @@ namespace Pirate.Scripts {
 
         private Rigidbody2D _rigidbody;
         private Controls _controls;
+        private Animator _animator;
 
         private float _direction;
         
-        
+        private static readonly int IsRunning = Animator.StringToHash("is-running");
+        private static readonly int VerticalVelocity = Animator.StringToHash("vertical-velocity");
+        private static readonly int IsGround = Animator.StringToHash("is-ground");
+        private bool _isDirectionRight;
+
+
         private void Awake() {
             _rigidbody = GetComponent<Rigidbody2D>();
             _controls = new Controls();
+            _animator = GetComponent<Animator>();
 
             _controls.Player.Jump.performed += context => Jump();
-        } 
+        }
+
+        private void Update() {
+            switch (_isDirectionRight) {
+                case false when _direction < 0:
+                case true when _direction > 0:
+                    Flip();
+                    break;
+            }
+        }
 
         private void FixedUpdate() {
             Move();
+            _animator.SetBool(IsGround, checkController.isGround);
+            _animator.SetFloat(VerticalVelocity, _rigidbody.velocity.y);
+            _animator.SetBool(IsRunning, _direction != 0);
         }
         
         private void OnEnable() => _controls.Enable();
@@ -32,6 +52,13 @@ namespace Pirate.Scripts {
         private void Move() {
             _direction = _controls.Player.Move.ReadValue<float>();
             _rigidbody.velocity = new Vector2(_direction * speed, _rigidbody.velocity.y);
+        }
+
+        private void Flip() {
+            _isDirectionRight = !_isDirectionRight;
+            Vector3 scaler = transform.localScale;
+            scaler.x *= -1;
+            transform.localScale = scaler;
         }
         
         

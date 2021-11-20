@@ -268,7 +268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f97b93bd373ff457cac99d35f522357c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalScore: 0
 --- !u!4 &115316748
 Transform:
   m_ObjectHideFlags: 0
@@ -866,8 +865,9 @@ GameObject:
   - component: {fileID: 615616988}
   - component: {fileID: 615616990}
   - component: {fileID: 615616991}
+  - component: {fileID: 615616992}
   m_Layer: 0
-  m_Name: Hero_0
+  m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -913,7 +913,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6146700129834819302, guid: baecd70d0274547b1bbcc9fd84de1979, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d5fba71111d144e79ad7a2524c7006e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -954,7 +954,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: af46e755243b64705a19be22df45a87b, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -972,8 +972,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.30499402, y: -0.08866823}
-  m_Size: {x: 0.4322154, y: 0.87905335}
+  m_Offset: {x: -0.00065112114, y: 0.06373453}
+  m_Size: {x: 0.46161175, y: 0.8539214}
   m_Direction: 0
 --- !u!114 &615616990
 MonoBehaviour:
@@ -1003,6 +1003,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGround: 0
+--- !u!95 &615616992
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615616985}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da06bfa9f3e2b4947925a5df313436a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &631147202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2819365353489310677, guid: f899456b3652c461e9ee69039ca35c01, type: 3}
@@ -1910,7 +1929,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1289221958}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: af46e755243b64705a19be22df45a87b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1

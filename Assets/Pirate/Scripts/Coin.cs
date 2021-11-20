@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Pirate.Scripts {
@@ -7,9 +8,9 @@ namespace Pirate.Scripts {
         [SerializeField] private Bank bank;
 
         public void TotalScore() {
-            bank.totalScore += coinScore;
-            Debug.Log(bank.totalScore.ToString());
+            //bank.totalScore += coinScore;
+            //Debug.Log(bank.totalScore.ToString());
+            Debug.Log(bank.TotalScore(coinScore));
         }
-        
     }
 }

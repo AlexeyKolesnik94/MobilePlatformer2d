@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="af79dc0d-4e3d-4e23-872a-050085fef5cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/FollowTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/FollowTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/Bank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Coin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/Coin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +18,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/LayerCheck.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/EnterTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/ReloadLevelComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Bank.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../ProjectForTest/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/EnterTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/CheckCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/Hero.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/LevelEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ProjectForTest/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/FollowTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/HeroInputReader.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -69,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637246809631</updated>
       <workItem from="1637246817578" duration="2846000" />
-      <workItem from="1637341297888" duration="9674000" />
+      <workItem from="1637341297888" duration="9704000" />
+      <workItem from="1637436863601" duration="2200000" />
     </task>
     <servers />
   </component>
@@ -86,6 +89,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
