@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af79dc0d-4e3d-4e23-872a-050085fef5cc" name="Changes" comment="" />
+    <list default="true" id="af79dc0d-4e3d-4e23-872a-050085fef5cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/CheckCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/CheckCollider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spikes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spikes.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resourses/textures/Props/Door.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resourses/textures/Props/Door.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resourses/textures/Props/Helm.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resourses/textures/Props/Helm.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +75,7 @@
       <workItem from="1637246817578" duration="2846000" />
       <workItem from="1637341297888" duration="9704000" />
       <workItem from="1637436863601" duration="5944000" />
+      <workItem from="1637520503646" duration="1161000" />
     </task>
     <servers />
   </component>
