@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8594278545970801733}
   - component: {fileID: 8594278545970801730}
   - component: {fileID: 8460065600235712444}
+  - component: {fileID: -8749162184323302466}
+  - component: {fileID: 7028549708764505035}
+  - component: {fileID: -5573410274378378800}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -122,3 +125,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acafe518bbd4246d29dd50fd5e4b43aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8749162184323302466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594278545970801731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c078ea6c8d1410ebeab106282593be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+--- !u!114 &7028549708764505035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594278545970801731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04694e5e990247bd9e63f33e5c16088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-5573410274378378800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594278545970801731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b4cc50c251e436093665165184a987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  component: PlayerController
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -8749162184323302466}
+        m_TargetAssemblyTypeName: Pirate.Scripts.Components.DamageComponent, Assembly-CSharp
+        m_MethodName: ApplyDamage
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  isGround: 0

@@ -6,6 +6,7 @@ namespace Pirate.Scripts {
 
         [SerializeField] private float speed;
         [SerializeField] private float jumpForce;
+        [SerializeField] private float damageJumpForce;
         [SerializeField] private CheckCollider checkController;
 
         private Rigidbody2D _rigidbody;
@@ -17,6 +18,7 @@ namespace Pirate.Scripts {
         private static readonly int IsRunning = Animator.StringToHash("is-running");
         private static readonly int VerticalVelocity = Animator.StringToHash("vertical-velocity");
         private static readonly int IsGround = Animator.StringToHash("is-ground");
+        private static readonly int Hit = Animator.StringToHash("hit");
         private bool _isDirectionRight;
 
 
@@ -66,6 +68,12 @@ namespace Pirate.Scripts {
             if (!checkController.isGround) return;
             _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             checkController.isGround = false;
+        }
+
+        public void TakeDamage() {
+            _animator.SetTrigger(Hit);
+            _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, damageJumpForce);
+            Debug.Log("damage");
         }
     }
 }

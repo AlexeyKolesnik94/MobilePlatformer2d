@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="af79dc0d-4e3d-4e23-872a-050085fef5cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MobilePlatformer2d/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/Bank.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/CheckCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/CheckCollider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Coin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/Coin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Components/EnterTriggerComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/Components/EnterTriggerComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Components/ReloadLevelComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/Components/ReloadLevelComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/FollowTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/FollowTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/Spikes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/Spikes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/SpriteAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/SpriteAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bank.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bank.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Creatures/Hero/Animations/_hero.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Creatures/Hero/Animations/_hero.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pirate/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pirate/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spikes.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spikes.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,16 +16,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/ReloadLevelComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/SpriteAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/FollowTarget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Bank.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/EnterTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/CheckCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/Hero.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/LayerCheck.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../platformerXYZ/Assets/PixelCrew/HeroInputReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/LevelEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/SpriteAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Bank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/ReloadLevelComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/EnterTriggerComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/FollowTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/CheckCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pirate/Scripts/Components/DamageComponent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2161cZfKb8wTzmhU5MGqHoyDkdH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -90,7 +83,8 @@
       <workItem from="1641915601251" duration="304000" />
       <workItem from="1641915931381" duration="182000" />
       <workItem from="1641916254119" duration="7000" />
-      <workItem from="1641916747151" duration="1556000" />
+      <workItem from="1641916747151" duration="6187000" />
+      <workItem from="1641924457403" duration="556000" />
     </task>
     <servers />
   </component>
