@@ -8,6 +8,7 @@ namespace Pirate.Scripts {
 
 
         private void LateUpdate() {
+            if (player == null) return;
             Vector3 destination = new Vector3(player.position.x, player.position.y, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, destination, Time.deltaTime * damping);
         }

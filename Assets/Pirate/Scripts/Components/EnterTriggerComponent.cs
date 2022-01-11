@@ -12,7 +12,6 @@ namespace Pirate.Scripts.Components {
             if (other.GetComponent(component)) {
                 action?.Invoke();
             }
-
         }
     }
 }
