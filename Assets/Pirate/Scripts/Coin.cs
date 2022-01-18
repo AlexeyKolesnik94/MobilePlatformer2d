@@ -6,6 +6,7 @@ namespace Pirate.Scripts {
         [SerializeField] private int coinScore;
         [SerializeField] private Bank bank;
 
+
         public void TotalScore() {
             Debug.Log(bank.TotalScore(coinScore));
         }

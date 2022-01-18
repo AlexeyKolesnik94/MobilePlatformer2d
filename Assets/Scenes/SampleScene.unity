@@ -235,6 +235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!4 &23909334 stripped
@@ -432,7 +436,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &35239333
 Transform:
@@ -558,6 +562,10 @@ PrefabInstance:
     - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
@@ -690,7 +698,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &50920877
 Transform:
@@ -772,7 +780,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &74481602
 Transform:
@@ -911,7 +919,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &80108283
 Transform:
@@ -1008,7 +1016,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &105329350
 Transform:
@@ -1197,6 +1205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
 --- !u!1 &151418146
@@ -1214,7 +1226,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &151418147
 Transform:
@@ -3401,6 +3413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!1001 &224409568
@@ -3577,6 +3593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!1001 &279643443
@@ -3589,6 +3609,10 @@ PrefabInstance:
     - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_Name
       value: Spikes (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
@@ -3877,6 +3901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!1001 &296330977
@@ -3946,6 +3974,10 @@ PrefabInstance:
     - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_Name
       value: Spikes (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
@@ -4108,6 +4140,10 @@ PrefabInstance:
     - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
@@ -4408,7 +4444,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &398630887
 Transform:
@@ -4500,7 +4536,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &416801182
 Transform:
@@ -4587,7 +4623,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &420769685
 Transform:
@@ -5101,6 +5137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_8 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
 --- !u!4 &544258865 stripped
@@ -5315,6 +5355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!4 &596619091 stripped
@@ -5399,7 +5443,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &603560562
 Transform:
@@ -5891,7 +5935,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &643886704
 Transform:
@@ -5978,7 +6022,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &651424431
 Transform:
@@ -6198,7 +6242,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &684756815
 Transform:
@@ -6320,6 +6364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_8 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
 --- !u!1001 &712693365
@@ -6438,6 +6486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!4 &718252981 stripped
@@ -6499,6 +6551,10 @@ PrefabInstance:
     - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
@@ -6736,7 +6792,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &746015946
 Transform:
@@ -7008,7 +7064,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &812581753
 Transform:
@@ -7253,6 +7309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_8 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
 --- !u!1001 &848891184
@@ -7309,6 +7369,10 @@ PrefabInstance:
     - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_8 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
@@ -7384,7 +7448,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &853759239
 Transform:
@@ -7476,7 +7540,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &911254156
 Transform:
@@ -7721,6 +7785,10 @@ PrefabInstance:
     - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
@@ -8002,7 +8070,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &981562959
 Transform:
@@ -8089,7 +8157,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &984735326
 Transform:
@@ -8166,6 +8234,10 @@ PrefabInstance:
     - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_Name
       value: Spikes
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
@@ -8504,7 +8576,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1038623482
 Transform:
@@ -8838,6 +8910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!4 &1103445991 stripped
@@ -8979,7 +9055,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1130112825
 Transform:
@@ -9066,6 +9142,10 @@ PrefabInstance:
     - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_Name
       value: Spikes (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
@@ -9180,6 +9260,10 @@ PrefabInstance:
     - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_Name
       value: Spikes (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
@@ -9304,7 +9388,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1174147090
 Transform:
@@ -9510,7 +9594,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1222220274
 Transform:
@@ -9649,6 +9733,10 @@ PrefabInstance:
     - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_Name
       value: Spikes (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
@@ -9870,6 +9958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!4 &1261171915 stripped
@@ -9892,7 +9984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1266733325
 Transform:
@@ -10028,6 +10120,10 @@ PrefabInstance:
     - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
@@ -16764,7 +16860,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1304920425
 Transform:
@@ -16851,7 +16947,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1313468588
 Transform:
@@ -16943,7 +17039,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1335952389
 Transform:
@@ -17189,6 +17285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!1001 &1387951407
@@ -17245,6 +17345,10 @@ PrefabInstance:
     - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_8 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668961955536847950, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b860e5d58a9b4fc4a936b893a95d546, type: 3}
@@ -17456,7 +17560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1438897334
 Transform:
@@ -17657,7 +17761,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1445663855
 Transform:
@@ -17914,6 +18018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -17975,7 +18083,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1469836812
 Transform:
@@ -18096,6 +18204,10 @@ PrefabInstance:
     - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
@@ -18418,7 +18530,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1550969651
 Transform:
@@ -18500,7 +18612,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1552114121
 Transform:
@@ -18626,6 +18738,10 @@ PrefabInstance:
     - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
@@ -18835,7 +18951,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1598388930
 Transform:
@@ -18917,7 +19033,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1601242309
 Transform:
@@ -19735,7 +19851,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1797629022
 Transform:
@@ -19818,6 +19934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8594278545970801731, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8594278545970801732, guid: ea1a1ab5806164d9fa81887348eb090e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -19879,7 +19999,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1810960908
 Transform:
@@ -20694,7 +20814,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1962648012
 Transform:
@@ -21001,6 +21121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
 --- !u!1 &1992234975
@@ -21018,7 +21142,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1992234976
 Transform:
@@ -21105,7 +21229,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2007288069
 Transform:
@@ -21378,7 +21502,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2046334427
 Transform:
@@ -21522,7 +21646,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2063314650
 Transform:
@@ -21604,7 +21728,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2065440302
 Transform:
@@ -21800,7 +21924,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2079527851
 Transform:
@@ -21887,7 +22011,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2087684880
 Transform:
@@ -22009,6 +22133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4639451864905669206, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbb9d65fe6a64f1e96979e7a6dea255, type: 3}
 --- !u!1001 &2095604461
@@ -22122,6 +22250,10 @@ PrefabInstance:
     - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
       propertyPath: m_Name
       value: PalmTreeBackgroundSheet_4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398050621911727839, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb73879d27d84cf093c2b2ca895fec0, type: 3}
@@ -22309,7 +22441,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2146401415
 Transform:
